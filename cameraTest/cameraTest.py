@@ -9,7 +9,7 @@ i = 0
 while True:
 	camera.capture('images/image' + str(i) + '.jpg')
 	i = i + 1
-	Print(str(i) + " pictures taken")
+	print(str(i) + " pictures taken")
 	time.sleep(1)
 
 camera.stop_preview()
